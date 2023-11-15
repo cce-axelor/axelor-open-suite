@@ -92,6 +92,7 @@ public class EbicsLibConvertUtils {
     ebicsLibBank.setUrl(ebicsBank.getUrl());
     ebicsLibBank.setCertValidityPeriodSelect(ebicsBank.getCertValidityPeriodSelect());
     ebicsLibBank.setProtocolSelect(ebicsBank.getProtocolSelect());
+    ebicsLibBank.setCipherSuite(ebicsBank.getCipherSuite());
     ebicsLibBank.setUseX509ExtensionBasicConstraints(
         ebicsBank.getUseX509ExtensionBasicConstraints());
     ebicsLibBank.setUseX509ExtensionSubjectKeyIdentifier(

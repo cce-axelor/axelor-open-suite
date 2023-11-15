@@ -175,6 +175,11 @@
     <option value="tls">TLS</option>
   </selection>
 
+  <selection name="bankpayment.ebics.bank.cipher.suite.select">
+    <option value="ECDHE-RSA-AES128-CBC-SHA256">ECDHE-RSA-AES128-CBC-SHA256</option>
+    <option value="ECDHE-RSA-AES128-GCM-SHA256">ECDHE-RSA-AES128-GCM-SHA256</option>
+  </selection>
+
   <selection name="bankpayment.ebics.bank.certificate.validity.period.select">
     <option value="1">1</option>
     <option value="2">2</option>
